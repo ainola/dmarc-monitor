@@ -1,4 +1,4 @@
-name: "Healthy - releases"
+name: "DMARC-monitor - releases"
 
 # only execute workflow on the master branch
 on:
