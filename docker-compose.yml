@@ -1,0 +1,10 @@
+services:
+  dmarc-monitor:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      EMAIL_USER: "your-email@example.com"
+      EMAIL_PASS: "your-email-password"
+      IMAP_SERVER: "imap.example.com"
+    restart: always
